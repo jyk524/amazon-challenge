@@ -2,7 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    // BEM convention
+    <div className="app">
       <h1>App.js h1</h1>
     </div>
   );
