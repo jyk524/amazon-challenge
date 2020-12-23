@@ -11,8 +11,10 @@ function Header() {
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
+        {/* Logo */}
       </div>
-      {/* Logo */}
+
+      <div className="header__nav"></div>
     </div>
   );
 }
