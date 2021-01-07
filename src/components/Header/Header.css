@@ -9,7 +9,7 @@
 }
 
 .header__logo {
-  width: 101px;
+  width: 100px;
   object-fit: contain;
   margin: 0 20px;
   margin-top: 18px;
@@ -17,6 +17,7 @@
 
 .header__search {
   display: flex;
+  /* Flex 1 stretches the search bar to the end */
   flex: 1;
   align-items: center;
   border-radius: 24px;
@@ -26,4 +27,12 @@
   padding: 5px;
   height: 22px !important;
   background-color: #cd9042;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
 }
